@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "rag-poc"
+version = "0.1.0"
+description = ""
+authors = ["vithushanms <msvithushan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rag_poc"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+dotenv = "^0.9.9"
+langchain-community = "^0.3.24"
+pypdf2 = "^3.0.1"
+langchain = "^0.3.25"
+faiss-cpu = "^1.11.0"
+sentence-transformers = "^4.1.0"
+openai = "^1.81.0"
+tiktoken = "^0.9.0"
+langchain-openai = "^0.3.17"
+langgraph = "^0.4.5"
+langgraph-checkpoint = "^2.0.26"
+langchain-core = "^0.3.60"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
