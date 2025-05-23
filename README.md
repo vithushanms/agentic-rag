@@ -6,6 +6,10 @@ A demonstration of a Retrieval-Augmented Generation (RAG) approach for document 
 
 [![RAG Demo](https://img.youtube.com/vi/8Stx24uSp3U/0.jpg)](https://youtu.be/8Stx24uSp3U)
 
+## Architecture Reference
+
+For a detailed explanation of the RAG architecture and agentic framework used in this project, see: [Make Your RAG Better: A Simple Yet Powerful AI Agentic Framework](https://medium.com/ideaboxai/make-your-rag-better-a-simple-yet-powerful-ai-agentic-framework-0152ffe7b822)
+
 ## Overview
 
 This project implements a complete RAG pipeline with two main components:
